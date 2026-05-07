@@ -1,0 +1,51 @@
+body {
+    background: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #e8e8e8;
+    border: 5px solid #2f3e46;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.details {
+    border: 1px dashed gray;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.valid {
+    margin-top: 10px;
+}
+
+.sign {
+    font-size: 14px;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #174ea6;
+    color: white;
+    padding: 8px 30px;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    display: none;
+}
+
+.navbar nav a:hover{
+    color: yellow;
+}
+
+.Main {
+    height: 70vh;
+    background: url('./pics/main.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Main-content {
+    color: white;
+}
+
+.Main button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+}
+.Main button:hover {
+    background: green;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card, .package {
+    background: #f5f5f5;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #174ea6;
+    color: white;
+    border: none;
+}
+.package button:hover {
+    background: green;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(0, 139, 42);
+    color: white;
+    border: none;
+}
+
+.contact button:hover {
+    background: darkblue;
+}
+
+footer {
+    background: #174ea6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar nav{
+        display: none;
+    }
+    .navbar svg{
+        display: block;
+    }
+    
+}
+
