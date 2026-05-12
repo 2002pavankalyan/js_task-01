@@ -15,7 +15,7 @@
 //4
 // const x = 10;
 // x = 20;
-//TypeError: Assignment to constant variable.
+//TypeError: Assignment to constant variable.   
 
 //5
 // var p = 5;
