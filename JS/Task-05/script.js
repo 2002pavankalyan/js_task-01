@@ -51,20 +51,19 @@
 //  }
 
 //***5 — Traffic Signal System***//
-// let signal = prompt("Enter Signal Color:");
-// switch(signal)
-// {
+// let signal = prompt("Enter Signal Color (red / yellow / green):");
+// switch(signal) {
 //     case "red":
-//         console.log("STOP");
+//         alert("STOP");
 //         break;
 //     case "yellow":
-//         console.log("READY");
+//         alert("READY");
 //         break;
 //     case "green":
-//         console.log("GO");
+//         alert("GO");
 //         break;
 //     default:
-//         console.log("Invalid Signal");
+//         alert("Invalid Signal");
 // }
 
 //***6 —  Employee Salary Calculator***//
