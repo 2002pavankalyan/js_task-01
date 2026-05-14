@@ -67,12 +67,13 @@
 // }
 
 //***6 —  Employee Salary Calculator***//
-// function salaryCalculation(basicSalary, bonus) 
-// {
+// function salaryCalculation(basicSalary, bonus) {
 //     let totalSalary = basicSalary + bonus;
 //     return totalSalary;
 // }
-// console.log(salaryCalculation(25000, 5000));
+// let result = salaryCalculation(25000, 5000);
+// alert(result);
+// console.log(result);
 
 //***7 —  E-Commerce Cart Total***//
 // let prices = [100, 200, 300, 400];
@@ -98,13 +99,11 @@
 // }
 
 //***9 —  Movie Ticket Booking***//
-// function payment() 
-// {
-//     console.log("Payment Completed");
+// function payment() {
+//     alert("Payment Successful");
 // }
-// function bookTicket(callback) 
-// {
-//     console.log("Movie Ticket Booked");
+// function bookTicket(callback) {
+//     alert("Movie Ticket Booked Successfully");
 //     callback();
 // }
 // bookTicket(payment);
