@@ -59,7 +59,7 @@ button:hover{
     font-weight:bold;
 }
 
-.hero{
+.main{
     height:300px;
     background-image:
     url("https://images.unsplash.com/photo-1523275335684-37898b6baf30");
@@ -72,18 +72,18 @@ button:hover{
     color:white;
 }
 
-.hero-content{
+.main-content{
     background:rgba(0,0,0,0.5);
     padding:30px;
     border-radius:10px;
 }
 
-.hero-content h2{
+.main-content h2{
     font-size:45px;
     margin-bottom:10px;
 }
 
-.hero-content p{
+.main-content p{
     font-size:20px;
 }
 
@@ -188,16 +188,16 @@ img{
         justify-content:center;
     }
 
-    .hero{
+    .main{
         height:250px;
         padding:20px;
     }
 
-    .hero-content h2{
+    .main-content h2{
         font-size:35px;
     }
 
-    .hero-content p{
+    .main-content p{
         font-size:18px;
     }
 
@@ -232,19 +232,19 @@ img{
         width:100%;
     }
 
-    .hero{
+    .main{
         height:220px;
     }
 
-    .hero-content{
+    .main-content{
         padding:20px;
     }
 
-    .hero-content h2{
+    .main-content h2{
         font-size:28px;
     }
 
-    .hero-content p{
+    .main-content p{
         font-size:16px;
     }
 
